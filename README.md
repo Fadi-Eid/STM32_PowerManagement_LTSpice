@@ -1,13 +1,16 @@
-# INA381A1 Use
+# Circuit Description
 
-![INA381A1_Usage](https://github.com/user-attachments/assets/5290ed60-5bf9-4444-b674-3ea93a0bc331)
+This GitHub repository contains a complete simulation of a protection solution for STM32 microcontrollers against overvoltage, undervoltage, overcurrent, and short circuits. The simulation is based on cost-effective and widely available integrated circuits, whose behavior has been modeled to closely match that of real components.
 
-# INA381A1 Internal Workings
-![INA381A1_Internal_Logic](https://github.com/user-attachments/assets/18aa94ce-51d7-447c-890c-ed8f5f889fdd)
+This protection circuit offers the following features:
 
+Protection against supply voltage exceeding 3.6V
+Protection against supply voltage dropping below 3.0V
+Protection against short circuits causing a current draw greater than 0.3A
+Additionally, the circuit integrates a push button and a GPIO pin to allow reset after a short circuit. The reset occurs automatically when the voltage returns to acceptable limits.
 
-# INA381A1 Protection Behavior
-![INA381A1_Behavior](https://github.com/user-attachments/assets/35dcfb76-ce4b-454f-89a8-879bd7ba0791)
+# Screenshots
 
-# INA381A1 Symbol
-![INA381A1_Symbol](https://github.com/user-attachments/assets/bfa943e6-764e-4e3e-909f-aeba180b12cd)
+![image](https://github.com/user-attachments/assets/f41b14ff-b535-42bf-9a25-bd2cf4b5cc72)
+
+![image](https://github.com/user-attachments/assets/70bc5e83-4a66-4d90-9a57-b5d403f64286)
